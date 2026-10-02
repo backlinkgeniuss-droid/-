@@ -1,0 +1,285 @@
+<!-- 울산출장마사지 이즈웹 메인 페이지 HEAD 통합 최종본
+기존에 직접 넣은 울산용 메타/스키마/강제 치환 코드는 제거하고 이 파일 전체로 교체하세요.
+01_META_REFERENCE.html과 02_HEAD_SCHEMA.html을 별도로 중복 삽입하지 마세요.
+메인 페이지 전용 HEAD에 사용하세요. 하위 페이지가 있는 사이트의 공통 HEAD에는 정적 태그까지 일괄 적용되므로 그대로 넣지 마세요.
+본문 BODY는 기존 파일을 유지합니다. 전화번호 미정으로 스키마의 telephone은 생략했습니다.
+robots/noindex와 HTTP 응답 헤더는 이 코드로 해제하지 않습니다.
+-->
+<title>울산출장마사지 | 코스·가격·방문지역·예약 안내</title>
+<meta name="description" content="울산출장마사지 코스와 가격, 남구·중구·동구·북구·울주군 방문 지역을 확인하세요. 전신·아로마·로미로미 60분·90분 코스, 24시간 상담, 후불제와 카드결제 문의, 예약 방법을 안내합니다.">
+<meta name="theme-color" content="#08080b">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="울산출장마사지">
+<meta property="og:title" content="울산출장마사지 | 코스·가격·방문지역·예약 안내">
+<meta property="og:description" content="울산출장마사지 코스와 가격, 남구·중구·동구·북구·울주군 방문 지역을 확인하세요. 전신·아로마·로미로미 60분·90분 코스, 24시간 상담, 후불제와 카드결제 문의, 예약 방법을 안내합니다.">
+<meta property="og:url" content="https://ulsanvisitmassage.isweb.co.kr/">
+<meta property="og:image" content="https://raw.githubusercontent.com/backlinkgeniuss-droid/-/main/ulsan-visit-20261002/assets/ulsan-hero.webp">
+<meta property="og:image:width" content="1536">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:alt" content="마사지 오일과 타월을 활용한 서비스 안내 이미지">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="울산출장마사지 | 코스·가격·방문지역·예약 안내">
+<meta name="twitter:description" content="울산출장마사지 코스와 가격, 남구·중구·동구·북구·울주군 방문 지역을 확인하세요. 전신·아로마·로미로미 60분·90분 코스, 24시간 상담, 후불제와 카드결제 문의, 예약 방법을 안내합니다.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/backlinkgeniuss-droid/-/main/ulsan-visit-20261002/assets/ulsan-hero.webp">
+<link rel="canonical" href="https://ulsanvisitmassage.isweb.co.kr/">
+<script type="application/ld+json" id="ulsan-seo-schema">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ulsanvisitmassage.isweb.co.kr/#website",
+      "url": "https://ulsanvisitmassage.isweb.co.kr/",
+      "name": "울산출장마사지",
+      "inLanguage": "ko-KR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ulsanvisitmassage.isweb.co.kr/#webpage",
+      "url": "https://ulsanvisitmassage.isweb.co.kr/",
+      "name": "울산출장마사지 | 코스·가격·방문지역·예약 안내",
+      "isPartOf": {
+        "@id": "https://ulsanvisitmassage.isweb.co.kr/#website"
+      },
+      "inLanguage": "ko-KR",
+      "mainEntity": {
+        "@id": "https://ulsanvisitmassage.isweb.co.kr/#service"
+      },
+      "description": "울산출장마사지 코스와 가격, 남구·중구·동구·북구·울주군 방문 지역을 확인하세요. 전신·아로마·로미로미 60분·90분 코스, 24시간 상담, 후불제와 카드결제 문의, 예약 방법을 안내합니다.",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://raw.githubusercontent.com/backlinkgeniuss-droid/-/main/ulsan-visit-20261002/assets/ulsan-hero.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ulsanvisitmassage.isweb.co.kr/#service",
+      "name": "울산출장마사지",
+      "serviceType": "방문 마사지",
+      "url": "https://ulsanvisitmassage.isweb.co.kr/",
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "울산광역시 남구"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "울산광역시 중구"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "울산광역시 동구"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "울산광역시 북구"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "울산광역시 울주군"
+        }
+      ],
+      "description": "울산 남구·중구·동구·북구·울주군 방문 마사지. 전신·아로마·로미로미 코스와 가격, 방문 지역 및 예약 안내.",
+      "image": "https://raw.githubusercontent.com/backlinkgeniuss-droid/-/main/ulsan-visit-20261002/assets/ulsan-hero.webp",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "울산출장마사지 코스 및 기본 가격",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "KRW",
+            "price": "70000",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "전신 마사지 60분"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "KRW",
+            "price": "90000",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "전신 마사지 90분"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "KRW",
+            "price": "80000",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "아로마 마사지 60분"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "KRW",
+            "price": "100000",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "아로마 마사지 90분"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "KRW",
+            "price": "100000",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "로미로미 마사지 60분"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "KRW",
+            "price": "120000",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "로미로미 마사지 90분"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+</script>
+<!-- 이즈웹 자동 생성 태그의 중복 제거 및 렌더링 후 재치환. 자신의 수정은 감시하지 않아 반복 루프를 방지합니다. -->
+<script>
+(function () {
+  'use strict';
+  var SEO = {
+  "title": "울산출장마사지 | 코스·가격·방문지역·예약 안내",
+  "url": "https://ulsanvisitmassage.isweb.co.kr/",
+  "metas": [
+    [
+      "name",
+      "description",
+      "울산출장마사지 코스와 가격, 남구·중구·동구·북구·울주군 방문 지역을 확인하세요. 전신·아로마·로미로미 60분·90분 코스, 24시간 상담, 후불제와 카드결제 문의, 예약 방법을 안내합니다."
+    ],
+    [
+      "name",
+      "theme-color",
+      "#08080b"
+    ],
+    [
+      "property",
+      "og:type",
+      "website"
+    ],
+    [
+      "property",
+      "og:locale",
+      "ko_KR"
+    ],
+    [
+      "property",
+      "og:site_name",
+      "울산출장마사지"
+    ],
+    [
+      "property",
+      "og:title",
+      "울산출장마사지 | 코스·가격·방문지역·예약 안내"
+    ],
+    [
+      "property",
+      "og:description",
+      "울산출장마사지 코스와 가격, 남구·중구·동구·북구·울주군 방문 지역을 확인하세요. 전신·아로마·로미로미 60분·90분 코스, 24시간 상담, 후불제와 카드결제 문의, 예약 방법을 안내합니다."
+    ],
+    [
+      "property",
+      "og:url",
+      "https://ulsanvisitmassage.isweb.co.kr/"
+    ],
+    [
+      "property",
+      "og:image",
+      "https://raw.githubusercontent.com/backlinkgeniuss-droid/-/main/ulsan-visit-20261002/assets/ulsan-hero.webp"
+    ],
+    [
+      "property",
+      "og:image:width",
+      "1536"
+    ],
+    [
+      "property",
+      "og:image:height",
+      "1024"
+    ],
+    [
+      "property",
+      "og:image:alt",
+      "마사지 오일과 타월을 활용한 서비스 안내 이미지"
+    ],
+    [
+      "name",
+      "twitter:card",
+      "summary_large_image"
+    ],
+    [
+      "name",
+      "twitter:title",
+      "울산출장마사지 | 코스·가격·방문지역·예약 안내"
+    ],
+    [
+      "name",
+      "twitter:description",
+      "울산출장마사지 코스와 가격, 남구·중구·동구·북구·울주군 방문 지역을 확인하세요. 전신·아로마·로미로미 60분·90분 코스, 24시간 상담, 후불제와 카드결제 문의, 예약 방법을 안내합니다."
+    ],
+    [
+      "name",
+      "twitter:image",
+      "https://raw.githubusercontent.com/backlinkgeniuss-droid/-/main/ulsan-visit-20261002/assets/ulsan-hero.webp"
+    ]
+  ]
+};
+  // 메인 주소에서만 재치환. 다른 페이지의 제목/canonical을 덮어쓰지 않습니다.
+  if (location.hostname !== 'ulsanvisitmassage.isweb.co.kr' || location.pathname !== '/') return;
+  if (window.__ulsanSeoHeadV2) return;
+  window.__ulsanSeoHeadV2 = true;
+  var observer = null, timer = null;
+  var options = {childList:true, subtree:true, attributes:true, characterData:true};
+  function setAttr(node, name, value) {
+    if (node.getAttribute(name) !== value) node.setAttribute(name, value);
+  }
+  function single(selector, tag) {
+    var nodes = document.head.querySelectorAll(selector);
+    var node = nodes[0];
+    if (!node) { node = document.createElement(tag); document.head.appendChild(node); }
+    for (var n = 1; n < nodes.length; n++) nodes[n].remove();
+    return node;
+  }
+  function enforce() {
+    if (!document.head) return;
+    if (observer) observer.disconnect();
+    try {
+      var title = single('title', 'title');
+      if (title.textContent !== SEO.title) title.textContent = SEO.title;
+      SEO.metas.forEach(function (entry) {
+        var attr = entry[0], key = entry[1], content = entry[2];
+        var node = single('meta[' + attr + '="' + key + '" i]', 'meta');
+        setAttr(node, attr, key); setAttr(node, 'content', content);
+      });
+      var canonical = single('link[rel="canonical" i]', 'link');
+      setAttr(canonical, 'rel', 'canonical'); setAttr(canonical, 'href', SEO.url);
+    } finally {
+      if (observer) observer.observe(document.head, options);
+    }
+  }
+  function schedule() {
+    if (timer !== null) return;
+    timer = setTimeout(function () { timer = null; enforce(); }, 80);
+  }
+  if (window.MutationObserver) observer = new MutationObserver(schedule);
+  enforce();
+  document.addEventListener('DOMContentLoaded', enforce, {once:true});
+  window.addEventListener('load', enforce, {once:true});
+  setTimeout(enforce, 800);
+  setTimeout(enforce, 2500);
+})();
+</script>
